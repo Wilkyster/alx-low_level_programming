@@ -1,21 +1,19 @@
-#include "main.h"
+#include "0-putchar.c"
 /**
- * main - program prints _putchar followed by a new line
- *
- * Return: Always 0
- */
-
+* main - Entry point
+*
+* Return: Always 0 (Success)
+*/
 int main(void)
 {
-	char name[8] = "_putchar";
-	int i = 0;
+char *sh = "Putchar";
 
-	while (i < 8)
-	{
-		_putchar(name[i]);
-		i++;
-	}
+while (*sh)
+{
+_putchar(*sh);
+sh++;
+}
+_putchar('\n');
 
-	_putchar('\n');
-	return (0);
+return (0);
 }
