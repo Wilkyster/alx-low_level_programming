@@ -64,7 +64,7 @@ int main(void)
 
         for (i = 92; i < 99; ++i)
 
-        {
+	{
 
                 printf(", %lu", aft1 + (aft2 / l));
 
@@ -81,7 +81,5 @@ int main(void)
         }
 
         printf("\n");
-
         return (0);
-
 }
