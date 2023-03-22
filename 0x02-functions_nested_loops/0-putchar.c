@@ -4,7 +4,7 @@
 
  * main - print _putchar
 
- * is written by mbah
+ * is written by winnie
 
  * Return: 0
 
