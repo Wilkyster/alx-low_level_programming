@@ -16,7 +16,7 @@ while (s[i] != '\0')
 {
 i++;
 }
-while (s[i] != '\0')
+return (i);
 }
 
 /**
